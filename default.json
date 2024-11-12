@@ -6,7 +6,9 @@
         "customManagers:githubActionsVersions",
         ":enablePreCommit",
         ":semanticCommits",
-        ":gitSignOff"
+        ":gitSignOff",
+        ":automergeDigest",
+        ":automergePatch"
     ],
     "timezone": "Europe/Berlin",
     "dependencyDashboardTitle": "Renovate Dashboard"
