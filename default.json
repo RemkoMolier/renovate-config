@@ -5,7 +5,8 @@
         "customManagers:dockerfileVersions",
         "customManagers:githubActionsVersions",
         ":enablePreCommit",
-        ":semanticCommits"
+        ":semanticCommits",
+        ":gitSignOff"
     ],
     "timezone": "Europe/Berlin",
     "dependencyDashboardTitle": "Renovate Dashboard"
